@@ -1,29 +1,41 @@
-name: ANTHONY DARIZ
-favicon: null
-layout_spectrum: 0.99514
-typography_spectrum: 0.5980848181061447
 title: ANTHONY DARIZ
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
-opengraph:
-  image: null
-  type: null
-  appId: null
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
+  saturation: 0.5
+  brandStrength: 0
+  rhythmicContrast: 0.5
   brandColors:
     - '#ffffff'
     - '#255569'
     - '#0b0301'
     - '#c3744b'
     - '#90401d'
-  brandStrength: 0
   lightness: 0.5
-  saturation: 0.5
-  rhythmicContrast: 0.5
-purpose: []
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+name: ANTHONY DARIZ
+favicon: null
+opengraph:
+  image: null
+  type: null
+  appId: null
+typography_spectrum: 0.5980848181061447
+layout_spectrum: 0.9951664
